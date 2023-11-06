@@ -1,0 +1,20 @@
+/*
+ * main8.c
+ *
+ *  Created on: Nov 7, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+int main(){
+
+	float num1 = 0.0,num2 = 0.0,result = 0.0;
+	char op;
+	printf("Enter the operator either + or - or * or /: ");
+	fflush(stdout);
+	scanf("%c",&op);
+	printf("Enter two operands: ");
+	fflush(stdout);
+	scanf("%f %f",&num1,&num2);
+	return 0;
+}

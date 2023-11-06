@@ -1,0 +1,7 @@
+19:48:57 **** Incremental Build of configuration Debug for project Exercise6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main6.o "..\\main6.c" 
+gcc -o Exercise6.exe main6.o 
+
+19:48:57 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

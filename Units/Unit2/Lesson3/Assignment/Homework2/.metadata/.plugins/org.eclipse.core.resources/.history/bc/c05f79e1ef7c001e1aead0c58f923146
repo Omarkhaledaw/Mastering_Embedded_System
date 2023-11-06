@@ -1,0 +1,16 @@
+/*
+ * main6.c
+ *
+ *  Created on: Nov 6, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+int main(){
+	int num = 0;
+	printf("Enter an integer: ");
+	fflush(stdout);
+	scanf("%d",&num);
+
+	return 0;
+}
