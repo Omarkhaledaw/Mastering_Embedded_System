@@ -1,0 +1,41 @@
+/*
+ * main4.c
+ *
+ *  Created on: Nov 18, 2023
+ *      Author: Omar Awad
+ */
+#include<stdio.h>
+
+int main(){
+
+	int array[100];
+	int size,i,element,position,temp;
+	printf("Enter no of elements: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&size);
+	for(i = 0;i<size;i++){
+		array[i]=(1+i);
+	}
+	for(i = 0;i<size;i++){
+		printf("%d ",array[i]);
+	}
+	printf("\nEnter the element to be inserted: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&element);
+
+	printf("Enter the location: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&position);
+
+	for(i = position-1;i<size+1;i++){
+		temp = array[i];
+		array[i] = element;
+		element = array[i+1];
+		array[i+1] = temp;
+	}
+
+	for(i = 0;i<size;i++){
+		printf("%d ",array[i]);
+	}
+	return 0;
+}

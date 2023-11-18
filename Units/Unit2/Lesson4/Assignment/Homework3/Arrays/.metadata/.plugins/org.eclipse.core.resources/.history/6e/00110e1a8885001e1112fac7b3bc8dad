@@ -1,0 +1,26 @@
+/*
+ * main1.c
+ *
+ *  Created on: Nov 17, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+int main(){
+
+	int i,j;
+	int array1[2][2];
+	int array2[2][2];
+	int sum[2][2];
+
+	printf("Enter the elements of 1st matrix\n");
+	for(i = 0;i<2;i++){
+		fflush(stdout);fflush(stdin);
+		for(j=0;j<2;j++){
+			printf("Enter a%d%d",i,j);
+			scanf("%d",&array1[i][j]);
+		}
+	}
+
+	return 0;
+}

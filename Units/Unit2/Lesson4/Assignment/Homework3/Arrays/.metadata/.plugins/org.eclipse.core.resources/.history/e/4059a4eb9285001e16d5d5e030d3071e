@@ -1,0 +1,111 @@
+///*
+// * main1.c
+// *
+// *  Created on: Nov 17, 2023
+// *      Author: Omar Awad
+// */
+//#include <stdio.h>
+//
+//int main(){
+//
+//	int i,j;
+//	float array1[2][2];
+//	float array2[2][2];
+//	float sum[2][2];
+//
+//	printf("Enter the elements of 1st matrix\n");
+//	for(i = 0;i<2;i++){
+//		for(j=0;j<2;j++){
+//			printf("Enter a%d%d: ",i+1,j+1);
+//			fflush(stdout);fflush(stdin);
+//			scanf("%f",&array1[i][j]);
+//		}
+//	}
+//	printf("Enter the elements of 2nd matrix\n");
+//	for(i = 0;i<2;i++){
+//		for(j = 0;j<2;j++){
+//			printf("Enter b%d%d: ",i+1,j+1);
+//			fflush(stdout);fflush(stdin);
+//			scanf("%f",&array2[i][j]);
+//		}
+//	}
+//	for(i = 0;i<2;i++){
+//		for(j = 0;j<2;j++){
+//			sum[i][j] = array1[i][j]+array2[i][j];
+//		}
+//	}
+//	printf("\nSum Of Matrix:\n");
+//	for(i = 0;i<2;i++){
+//		for(j = 0;j<2;j++){
+//			printf("%.1f\t",sum[i][j]);
+//		}
+//		printf("\n");
+//	}
+//
+//	return 0;
+//}
+#include <stdio.h>
+
+typedef unsigned char        uint8  ;
+typedef unsigned short       uint16 ;
+typedef unsigned long        uint32 ;
+typedef unsigned long long   uint64 ;
+
+typedef signed char          int8  ;
+typedef signed short         int16 ;
+typedef signed long          int32 ;
+typedef signed long long     int64 ;
+
+/*
+write c program to find transpose of matrix
+*/
+
+void main(){
+    float matrix[10][10];
+    float trans_matrix[10][10];
+    uint8 i =0 , j =0 ,Rows ,Column ;
+    printf("Enter number of Rows :");
+    fflush(stdin); fflush(stdout);
+    scanf("%d", &Rows );
+
+    printf("Enter number of Column :");
+    fflush(stdin); fflush(stdout);
+    scanf("%d", &Column );
+
+    if((i<0||i>10)||(j<0||j>10)){
+        printf("!!Error range of Column & rows 1 -> 10 ");
+    }
+    else{
+        printf("Enter the matrix \n");
+    for(i=0 ; i<Rows ; i++){    //loop to take from user matrix
+        for(j=0 ; j <Column ; j++){
+        printf("Enter a%d%d ",(i+1),(j+1));
+        fflush(stdin); fflush(stdout);
+        scanf("%f", &matrix[i][j] );
+        }
+    }
+
+    printf("The Entered matrix \n");
+    for(i=0 ; i<Rows ; i++){    //loop to print the entered matrix
+        for(j=0 ; j <Column ; j++){
+        printf("%0.2f \t",matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    for(i=0 ; i<Column ; i++){    //loop to Transpose matrix
+        for(j=0 ; j <Rows ; j++){
+            trans_matrix[i][j]=matrix[j][i];
+        }
+    }
+
+    printf("The Transpose matrix \n");
+    for(i=0 ; i<Column ; i++){    //loop to print the Transposed matrix
+        for(j=0 ; j <Rows ; j++){
+        printf("%0.2f \t",trans_matrix[i][j]);
+        }
+        printf("\n");
+    }
+
+    }
+}

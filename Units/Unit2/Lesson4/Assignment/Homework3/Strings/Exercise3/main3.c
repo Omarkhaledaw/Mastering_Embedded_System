@@ -1,0 +1,20 @@
+/*
+ * main3.c
+ *
+ *  Created on: Nov 18, 2023
+ *      Author: Omar Awad
+ */
+#include<stdio.h>
+
+int main(){
+	char text[100];
+	int i;
+	printf("Enter a string : ");
+	fflush(stdout);fflush(stdin);
+	gets(text);
+	printf("Reverse string is : ");
+	for(i = (strlen(text)-1);i>=0;i--){
+		printf("%c",text[i]);
+	}
+	return 0;
+}

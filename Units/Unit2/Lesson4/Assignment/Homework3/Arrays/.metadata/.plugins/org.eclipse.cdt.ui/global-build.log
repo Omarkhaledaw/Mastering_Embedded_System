@@ -1,0 +1,14 @@
+16:21:35 **** Rebuild of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Exercise4.exe main4.o 
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise4
+16:22:54 **** Incremental Build of configuration Debug for project Exercise5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main5.o "..\\main5.c" 
+gcc -o Exercise5.exe main5.o 
+Info: Nothing to build for Exercise5
