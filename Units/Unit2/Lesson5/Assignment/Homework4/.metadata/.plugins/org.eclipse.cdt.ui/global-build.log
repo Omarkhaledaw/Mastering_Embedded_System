@@ -1,0 +1,160 @@
+13:13:28 **** Rebuild of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:17:33 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:20:08 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:25:07 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:25:39 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:35:40 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Exercise3.exe main3.o 
+13:35:40 **** Rebuild of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+..\main4.c: In function 'powerUsingRecursion':
+..\main4.c:30:25: error: 'base' undeclared (first use in this function)
+   30 |                 return (base*powerpowerUsingRecursion(base,power-1));
+      |                         ^~~~
+..\main4.c:30:25: note: each undeclared identifier is reported only once for each function it appears in
+..\main4.c:30:30: warning: implicit declaration of function 'powerpowerUsingRecursion'; did you mean 'powerUsingRecursion'? [-Wimplicit-function-declaration]
+   30 |                 return (base*powerpowerUsingRecursion(base,power-1));
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                              powerUsingRecursion
+..\main4.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+Info: Nothing to build for Exercise3
+13:35:55 **** Incremental Build of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+..\main4.c: In function 'powerUsingRecursion':
+..\main4.c:30:24: error: 'base' undeclared (first use in this function)
+   30 |                 return base*power*powerUsingRecursion(base,power-1);
+      |                        ^~~~
+..\main4.c:30:24: note: each undeclared identifier is reported only once for each function it appears in
+..\main4.c:32:1: warning: control reaches end of non-void function [-Wreturn-type]
+   32 | }
+      | ^
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+Info: Nothing to build for Exercise3
+13:36:11 **** Incremental Build of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Exercise4.exe main4.o 
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+Info: Nothing to build for Exercise3
+13:37:18 **** Incremental Build of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Exercise4.exe main4.o 
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:46:31 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'reverseUsingRecusrion':
+..\main3.c:20:17: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |         scanf("%c",c);
+      |                ~^  ~
+      |                 |  |
+      |                 |  int
+      |                 char *
+..\main3.c:20:17: warning: format '%c' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   20 |         scanf("%c",c);
+      |                ~^  ~
+      |                 |  |
+      |                 |  int
+      |                 char *
+..\main3.c:22:39: error: 'text' undeclared (first use in this function)
+   22 |                 reverseUsingRecusrion(text);
+      |                                       ^~~~
+..\main3.c:22:39: note: each undeclared identifier is reported only once for each function it appears in
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:46:47 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:48:26 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+gcc -o Exercise3.exe main3.o 
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise4
+Info: Nothing to build for Exercise3
+Info: Nothing to build for Exercise1
+Info: Nothing to build for Exercise2
+13:50:24 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+gcc -o Exercise3.exe main3.o 
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Exercise3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for Exercise4
+13:50:27 **** Incremental Build of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -o Exercise3.exe main3.o 

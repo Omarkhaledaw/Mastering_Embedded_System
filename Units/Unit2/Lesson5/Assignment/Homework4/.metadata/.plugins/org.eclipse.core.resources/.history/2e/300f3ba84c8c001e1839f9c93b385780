@@ -1,0 +1,26 @@
+/*
+ * main3.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+void reverse();
+
+int main(){
+
+	printf("Enter a sentence: ");
+	reverse();
+
+	return 0;
+}
+void reverse(){
+	char c;
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&c);
+	while(c != '\n'){
+		reverse();
+		printf("%c",c);
+	}
+}

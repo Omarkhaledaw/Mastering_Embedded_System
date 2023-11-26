@@ -1,0 +1,23 @@
+/*
+ * main1.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+void primeNumbersRange(int,int);
+
+int main(){
+
+	int num1,num2;
+	printf("Enter two numbers (intervals): ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d %d",&num1,&num2);
+
+
+	return 0;
+}
+void primeNumbersRange(int num1,int num2){
+
+}

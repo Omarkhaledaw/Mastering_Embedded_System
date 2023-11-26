@@ -1,0 +1,26 @@
+/*
+ * main3.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+void reverseUsingRecusrion(char text[]);
+
+int main(){
+	char text[100];
+	printf("Enter a sentence: ");
+	gets(text);
+	reverseUsingRecusrion(text);
+
+	return 0;
+}
+void reverseUsingRecusrion(char text[]){
+	static int i = 0;
+	while(text[i] != '\0'){
+		i++;
+		reverse(text);
+		printf("%c",text[i]);
+	}
+}

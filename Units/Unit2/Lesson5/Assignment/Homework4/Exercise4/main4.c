@@ -1,0 +1,32 @@
+/*
+ * main4.c
+ *
+ *  Created on: Nov 26, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+int powerUsingRecursion(int,int);
+
+int main(){
+	int num,power,result;
+	printf("Enter base number: ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&num);
+
+	printf("Enter power number(positive number): ");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&power);
+
+	result = powerUsingRecursion(num,power);
+	printf("%d ^ %d = %d",num,power,result);
+
+	return 0;
+}
+int powerUsingRecursion(int num, int power){
+	if(power == 0){
+		return 1;
+	}else{
+		return num*powerUsingRecursion(num,power-1);
+	}
+}
