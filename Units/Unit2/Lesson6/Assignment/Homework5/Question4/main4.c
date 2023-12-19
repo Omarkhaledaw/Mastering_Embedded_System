@@ -1,0 +1,36 @@
+/*
+ * main4.c
+ *
+ *  Created on: Dec 20, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+struct S_student{
+	char name[50];
+	int marks;
+}student[10];
+
+int main(){
+
+	int i;
+	printf("Enter information of students:\n");
+	for(i=0;i<2;i++){
+		printf("\nFor roll number %d\n",i+1);
+		printf("Enter name: ");
+		fflush(stdout);fflush(stdin);
+		scanf("%s",student[i].name);
+		//fgets(student[i].name,50,stdin);
+		printf("Enter marks: ");
+		fflush(stdout);fflush(stdin);
+		scanf("%d",&student[i].marks);
+	}
+
+	printf("\nDisplaying information of students\n");
+	for(i=0;i<1;i++){
+		printf("\nInformation for roll number %d\n",i+1);
+		printf("Name: %s",student[i].name);
+		printf("\nMarks: %d",student[i].marks);
+	}
+	return 0;
+}

@@ -1,0 +1,35 @@
+/*
+ * main1.c
+ *
+ *  Created on: Dec 19, 2023
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+struct S_student{
+	char name[50];
+	int roll;
+	float marks;
+};
+
+int main(){
+
+	struct S_student num1;
+	printf("Enter information of students:\n");
+	printf("\nEnter name: ");
+	fflush(stdout);fflush(stdin);
+	fgets(num1.name,50,stdin);
+	printf("Enter roll number: ");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&num1.roll);
+	printf("Enter marks: ");
+	fflush(stdout);fflush(stdin);
+	scanf("%f",&num1.marks);
+
+	printf("\nDisplaying information\n");
+	printf("name: %s",num1.name);
+	printf("Roll: %d",num1.roll);
+	printf("\nMarks: %.2f",num1.marks);
+
+	return 0;
+}

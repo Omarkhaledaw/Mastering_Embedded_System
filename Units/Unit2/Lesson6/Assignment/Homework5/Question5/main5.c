@@ -1,0 +1,20 @@
+/*
+ * main5.c
+ *
+ *  Created on: Dec 20, 2023
+ *      Author: Omar Awad
+ */
+#include<stdio.h>
+
+#define PI 3.14
+#define area(x) (PI*x*x)
+
+int main(){
+
+	int num;
+	printf("Enter the radius: ");
+	fflush(stdout);fflush(stdin);
+	scanf("%d",&num);
+	printf("Area= %.2f",area(num));
+	return 0;
+}
