@@ -1,0 +1,151 @@
+16:37:24 **** Rebuild of configuration Debug for project Question3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main3.o "..\\main3.c" 
+..\main3.c: In function 'main':
+..\main3.c:15:9: warning: call to 'gets' declared with attribute warning: Using gets() is always unsafe - use fgets() instead [-Wattribute-warning]
+   15 |         gets(text);
+      |         ^~~~~~~~~~
+gcc -o Question3.exe main3.o 
+Info: Nothing to build for Question3
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:13:37 **** Rebuild of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+..\main4.c: In function 'main':
+..\main4.c:17:24: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   17 |         printf("Input %d number of elements in the array:\n");
+      |                       ~^
+      |                        |
+      |                        int
+..\main4.c:17:24: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   17 |         printf("Input %d number of elements in the array:\n");
+      |                       ~^
+      |                        |
+      |                        int
+..\main4.c:21:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   21 |                 scanf("%d",*ptr);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         int *
+..\main4.c:21:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   21 |                 scanf("%d",*ptr);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         int *
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:13:59 **** Incremental Build of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+..\main4.c: In function 'main':
+..\main4.c:21:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   21 |                 scanf("%d",*ptr);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         int *
+..\main4.c:21:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   21 |                 scanf("%d",*ptr);
+      |                        ~^  ~~~~
+      |                         |  |
+      |                         |  int
+      |                         int *
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:14:08 **** Incremental Build of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question4
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:22:58 **** Incremental Build of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question4
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:23:28 **** Incremental Build of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question4
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+17:24:33 **** Incremental Build of configuration Debug for project Question4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main4.o "..\\main4.c" 
+gcc -o Question4.exe main4.o 
+Info: Nothing to build for Question4
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+Info: Nothing to build for Question4
+17:30:47 **** Rebuild of configuration Debug for project Question5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main5.o "..\\main5.c" 
+..\main5.c: In function 'main':
+..\main5.c:15:33: warning: initialization of 'struct SEmployee *' from incompatible pointer type 'char *' [-Wincompatible-pointer-types]
+   15 |         struct SEmployee *num1={"Alex",1002};
+      |                                 ^~~~~~
+..\main5.c:15:33: note: (near initialization for 'num1')
+..\main5.c:15:40: warning: excess elements in scalar initializer
+   15 |         struct SEmployee *num1={"Alex",1002};
+      |                                        ^~~~
+..\main5.c:15:40: note: (near initialization for 'num1')
+gcc -o Question5.exe main5.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+Info: Nothing to build for Question4
+17:33:51 **** Incremental Build of configuration Debug for project Question5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main5.o "..\\main5.c" 
+..\main5.c: In function 'main':
+..\main5.c:15:33: warning: initialization of 'struct SEmployee *' from incompatible pointer type 'char *' [-Wincompatible-pointer-types]
+   15 |         struct SEmployee *num1={"Alex",1002};
+      |                                 ^~~~~~
+..\main5.c:15:33: note: (near initialization for 'num1')
+..\main5.c:15:40: warning: excess elements in scalar initializer
+   15 |         struct SEmployee *num1={"Alex",1002};
+      |                                        ^~~~
+..\main5.c:15:40: note: (near initialization for 'num1')
+gcc -o Question5.exe main5.o 
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+Info: Nothing to build for Question4
+17:34:21 **** Incremental Build of configuration Debug for project Question5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main5.o "..\\main5.c" 
+..\main5.c: In function 'main':
+..\main5.c:16:20: warning: 'num1' is used uninitialized [-Wuninitialized]
+   16 |         num1->name = "Alex";
+      |         ~~~~~~~~~~~^~~~~~~~
+..\main5.c:15:27: note: 'num1' was declared here
+   15 |         struct SEmployee *num1;
+      |                           ^~~~
+gcc -o Question5.exe main5.o 
+Info: Nothing to build for Question4
+Info: Nothing to build for Question5
+Info: Nothing to build for Question1
+Info: Nothing to build for Question2
+Info: Nothing to build for Question3
+Info: Nothing to build for Question4
+17:52:48 **** Incremental Build of configuration Debug for project Question5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main5.o "..\\main5.c" 
+gcc -o Question5.exe main5.o 
+Info: Nothing to build for Question5

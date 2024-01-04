@@ -1,0 +1,21 @@
+/*
+ * main5.c
+ *
+ *  Created on: Jan 4, 2024
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+struct SEmployee{
+	char *name;
+	int id;
+};
+
+int main(){
+	struct SEmployee num1={"John",1001},num2={"Alex",1002},num3={"Taylor",1003};
+	struct SEmployee (*arr[3])={&num1,&num2,&num3};
+	(*ptr)[3];
+	printf("Employee Name : %s",num1->name);
+	printf("Employee ID : %d",num1->id);
+	return 0;
+}

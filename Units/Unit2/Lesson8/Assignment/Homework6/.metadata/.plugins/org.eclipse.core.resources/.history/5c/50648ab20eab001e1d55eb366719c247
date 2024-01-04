@@ -1,0 +1,30 @@
+/*
+ * main3.c
+ *
+ *  Created on: Jan 4, 2024
+ *      Author: Omar Awad
+ */
+#include <stdio.h>
+
+int main(){
+	char text[100];
+	printf("Pointer : Print a string in reverse order :");
+	printf("\n-----------------------\n");
+	printf("Input a string : ");
+	gets(text);
+	int i = 0;
+	char *ptr = text;
+	while(*ptr != '/0'){
+		ptr++;
+		i++;
+	}
+	ptr--;
+	printf("Reverse of the string is : ");
+	while(i != 0){
+		printf("%c",*ptr);
+		ptr--;
+		i--;
+	}
+
+	return 0;
+}
